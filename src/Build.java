@@ -10,7 +10,6 @@ public class Build extends game {
             case "Ranger" -> setRanger();
         }
     }
-
     public void setTank(){
         this.baseHp = 500;
         this.hp = baseHp+(10*level);

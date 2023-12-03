@@ -133,7 +133,6 @@ public class game {
         }
         return  ring;
     }
-
     public void attack(game opponent) {
 
         double DmgAttacker = 0;
