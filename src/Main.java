@@ -1,17 +1,47 @@
-// Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
-// then press Enter. You can now see whitespace characters in your code.
 public class Main {
     public static void main(String[] args) {
-        // Press Alt+Enter with your caret at the highlighted text to see how
-        // IntelliJ IDEA suggests fixing it.
-        System.out.print("Hello and welcome!");
 
-        // Press Shift+F10 or click the green arrow button in the gutter to run the code.
-        for (int i = 1; i <= 5; i++) {
+        Build A = new Build("Tank","Tiger");
+        Build B = new Build("Assassin","Fitto");
+        Build C = new Build("Ranger","Korn");
 
-            // Press Shift+F9 to start debugging your code. We have set one breakpoint
-            // for you, but you can always add more by pressing Ctrl+F8.
-            System.out.println("i = " + i);
-        }
+        A.Hermes_Boots(true);
+        A.Atk_Ring(true);
+        A.UseSword(false);
+        A.UseShield(false);
+
+        B.Hermes_Boots(true);
+        B.Atk_Ring(false);
+        B.UseSword(true);
+        B.UseShield(true);
+
+        C.Hermes_Boots(true);
+        C.Atk_Ring(true);
+        C.UseSword(true);
+        C.UseShield(true);
+
+
+
+        B.display();
+        C.display();
+
+        B.attack(C);
+        B.attack(C);
+        B.attack(C);
+        B.attack(C);
+        B.attack(C);
+        B.attack(C);
+        B.attack(C);
+        B.attack(C);
+        B.attack(C);
+        B.attack(C);
+
+        C.display();
+
+
+//อันนี้ลองเทสว่าเวลาเลเวลอัพค่าสเตตัสจะอัพขึ้นตามเลเวลหรือไม่
+
+
+
     }
 }
